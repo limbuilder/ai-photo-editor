@@ -1,0 +1,1 @@
+import{r as e}from"./runtime-BE2aNYjO.js";var t=((t={},n={})=>(n.locale??e(),`Copy`)),n=((t={},n={})=>(n.locale??e(),`Copy failed`));export{t as n,n as t};

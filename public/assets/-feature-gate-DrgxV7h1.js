@@ -1,0 +1,1 @@
+import{s as e}from"./runtime-BE2aNYjO.js";import{t}from"./useNavigate-DphtGl7M.js";import{t as n}from"./use-user-features-Pv2HKdPh.js";var r=e();function i({feature:e,children:i}){let a=n();return a.loaded?a[e]?i:(0,r.jsx)(t,{to:`/settings`,replace:!0}):null}export{i as t};

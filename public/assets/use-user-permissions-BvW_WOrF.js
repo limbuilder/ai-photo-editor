@@ -1,0 +1,1 @@
+import{l as e,r as t}from"./api-client-Bnx4qT1J.js";function n(n=!0){return e({queryKey:[`user-permissions`],queryFn:()=>t(`/api/user/permissions`),staleTime:3e5,enabled:n})}export{n as t};

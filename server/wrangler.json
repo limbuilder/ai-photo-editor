@@ -1,0 +1,43 @@
+{
+  "compatibility_date": "2026-10-01",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-photo-editor",
+  "account_id": "3f8f96e3145ebbab6b876c70e3db556c",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "DATABASE_PROVIDER": "d1",
+    "VITE_APP_URL": "https://getaiphotoeditor.com",
+    "VITE_APP_NAME": "GetAIPhotoEditor",
+    "AUTH_TRUSTED_ORIGINS": ".getaiphotoeditor.com",
+    "PLAUSIBLE_SCRIPT_HOSTS": "app.pageview.app",
+    "ANONYMOUS_TRIAL_ENABLED": "true"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ai-photo-editor-db",
+      "database_id": "38025f4f-fbe0-42f3-93c7-ec637b60cedd",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "main": "index.mjs",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "../public"
+  },
+  "no_bundle": true,
+  "rules": [
+    {
+      "type": "ESModule",
+      "globs": [
+        "**/*.mjs",
+        "**/*.js"
+      ]
+    }
+  ]
+}

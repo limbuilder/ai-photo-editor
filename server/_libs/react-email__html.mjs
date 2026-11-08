@@ -1,0 +1,14 @@
+import { __toESM } from "../_runtime.mjs";
+import { require_jsx_runtime, require_react } from "./@base-ui/react+[...].mjs";
+// node_modules/.pnpm/@react-email+html@0.0.12_react@19.3.1/node_modules/@react-email/html/dist/index.mjs
+var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
+var import_jsx_runtime = require_jsx_runtime();
+var Html = import_react.forwardRef(({ children, lang = "en", dir = "ltr", ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("html", {
+	...props,
+	dir,
+	lang,
+	ref,
+	children
+}));
+Html.displayName = "Html";
+export { Html };

@@ -1,0 +1,1 @@
+import{B as e}from"./index-Cx29SlE-.js";function t(t){return e(t.defaultTagName??`div`,t,t)}export{t};

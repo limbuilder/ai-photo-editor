@@ -1,0 +1,1 @@
+import{s as e}from"./runtime-BE2aNYjO.js";import{n as t,t as n}from"./header-DLEtUs4h.js";import{t as r}from"./pricing-BvNbIG8_.js";var i=e();function a(){return(0,i.jsxs)(`div`,{className:`min-h-screen bg-[#f7f9fc]`,children:[(0,i.jsx)(n,{}),(0,i.jsx)(`main`,{children:(0,i.jsx)(r,{title:`AI Photo Editor Pricing`,headingAs:`h1`})}),(0,i.jsx)(t,{})]})}export{a as component};

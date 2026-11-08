@@ -1,0 +1,1 @@
+import{C as e}from"./index-Cx29SlE-.js";import{n as t}from"./user-features-CxuFGitE.js";function n(){let{data:n,isSuccess:r}=e();return{loaded:r,credits:t(n,`credits_enabled`),billing:t(n,`billing_enabled`),payments:t(n,`payments_enabled`),apikeys:t(n,`apikeys_enabled`),tickets:t(n,`tickets_enabled`)}}export{n as t};
